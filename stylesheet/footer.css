@@ -1,0 +1,116 @@
+.footer{
+  background: #212121;
+  color: white;
+  padding-bottom: 50px;
+}
+.footer #container .footer_top{
+  display: flex;
+  justify-content: space-around;
+}
+.footer #container .footer_top .footer_boxs{
+  padding-top: 50px;
+  width: 200px;
+}
+.footer #container .footer_top .footer_boxs h3{
+  font-weight: bold;
+  text-align: center;
+  font-size: 17px;
+}
+.footer #container .footer_top .footer_boxs .box_lists{
+  padding-top: 30px;
+}
+.footer #container .footer_top .footer_boxs .box_lists li{
+  list-style: none;
+  text-align: center;
+  line-height: 32px;
+  font-size: 14px;
+}
+.footer #container .footer_top .footer_boxs .box_lists li img{
+  width: 20px;
+}
+}
+.footer #container .footer_bottom{
+  padding: 50px 0;
+}
+.footer #container .footer_bottom .footer_bottom_img{
+  text-align: center;
+}
+.footer #container .footer_bottom .footer_bottom_text{
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+.moment_footer{
+  display: none;
+}
+
+@media(max-width:1070px){
+.footer{
+}
+.footer #container .footer_top{
+}
+.footer #container .footer_top .footer_boxs{
+  width: 160px;
+}
+.footer #container .footer_top .footer_boxs h3{
+}
+.footer #container .footer_top .footer_boxs .box_lists{
+}
+.footer #container .footer_top .footer_boxs .box_lists li{
+}
+.footer #container .footer_top .footer_boxs .box_lists li img{
+}
+.footer #container .footer_top .footer_boxs .box_lists_last li{
+}
+.footer #container .footer_bottom{
+}
+.footer #container .footer_bottom .footer_bottom_img{
+}
+.footer #container .footer_bottom .footer_bottom_text{
+}
+}
+
+@media(max-width:770px){
+.footer{
+}
+.footer #container .footer_top{
+  display: flex;
+  flex-direction: column;
+}
+.footer #container .footer_top .footer_boxs{
+  width: 100%;
+}
+.footer #container .footer_top .footer_boxs h3{
+}
+.footer #container .footer_top .footer_boxs .box_lists{
+  font-weight: 100;
+}
+.footer #container .footer_top .footer_boxs .box_lists li{
+}
+.footer #container .footer_top .footer_boxs .box_lists li img{
+}
+.footer #container .footer_top .footer_boxs .box_lists_last li{
+}
+.footer #container .footer_bottom{
+  padding-top: 20px;
+}
+.footer #container .footer_bottom .footer_bottom_img{
+}
+.footer #container .footer_bottom .footer_bottom_text{
+}
+.moment_footer{
+  display: flex;
+  justify-content: center;
+  padding-top: 38px;
+}
+.moment_footer img{
+  width: 40px;
+  height: 40px;
+}
+.moment_footer p{
+  line-height: 36px;
+  padding-left: 8px;
+  font-size: 14px;
+}
+}

@@ -1,0 +1,105 @@
+.section_step{
+}
+.section_step #container .first_text{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 33px;
+}
+.section_step #container .step_content{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 55px;
+  padding-bottom: 50px;
+}
+.section_step #container .step_content span{
+  background: red;
+  padding: 16px;
+  border-radius: 50%;
+  color: white;
+}
+.section_step #container .step_content h2{
+  font-size: 27px;
+  font-weight: bold;
+}
+.section_step #container .step_content .step_img{
+  width: 321px;
+  height: 321px;
+  padding-top: 40px;
+}
+.section_step #container .step_content .step_img img{
+  width: 100%;
+}
+.section_step #container .step_content .last_text{
+  padding-top: 20px;
+  font-size: 19px;
+  text-align: center;
+  line-height: 28px;
+}
+.section_step #container .step_content .step{
+}
+
+
+@media(max-width:1070px){
+.section_step{
+}
+.section_step #container .first_text{
+}
+.section_step #container .step_content{
+}
+.section_step #container .step_content .step{
+}
+.section_step #container .step_content span{
+}
+.section_step #container .step_content h2{
+  font-size: 18px;
+}
+.section_step #container .step_content .step_img{
+  width: 100%;
+  height: 230px;
+  padding-top: 30px;
+}
+.section_step #container .step_content .step_img img{
+}
+.section_step #container .step_content .last_text{
+  padding-top: 10px;
+}
+.section_step #container .step_content .step{
+  width: 30%;
+}
+}
+
+@media(max-width:770px){
+.section_step{
+  padding: 46px 20px;
+}
+.section_step #container .first_text{
+  font-size: 20px;
+  padding: 0 16px;
+}
+.section_step #container .step_content{
+  display: flex;
+  flex-direction: column;
+}
+.section_step #container .step_content .step{
+  width: 100%;
+  height: 530px;
+}
+.section_step #container .step_content span{
+}
+.section_step #container .step_content h2{
+  font-size: 21px;
+  text-align: center;
+}
+.section_step #container .step_content .step_img{
+}
+.section_step #container .step_content .step_img img{
+}
+.section_step #container .step_content .last_text{
+  padding-top: 140px;
+  font-size: 18px;
+}
+.section_step #container .step_content .step{
+}
+}

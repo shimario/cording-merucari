@@ -1,0 +1,99 @@
+.section_feature{
+  padding: 75px 0;
+}
+.section_feature #container h2{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.section_feature #container .features{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.section_feature #container .features .aida{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section_feature #container .features .aida .features_box{
+  background: #f5f5f5;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+}
+.section_feature #container .features .aida .features_box img{
+  width: 70px;
+}
+.section_feature #container .features .aida .features_texts{
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section_feature #container .features .aida .features_texts h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+.section_feature #container .features .aida .features_texts .features_paragraph{
+  text-align: center;
+  padding-top: 10px;
+  overflow: hidden;
+  width: 200px
+}
+
+@media(max-width:1070px){
+.section_feature{
+}
+.section_feature #container h2{
+}
+.section_feature #container .features{
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_feature #container .features .aida{
+  width: 50%;
+}
+.section_feature #container .features .aida .features_box{
+}
+.section_feature #container .features .aida .features_box img{
+}
+.section_feature #container .features .aida .features_texts{
+}
+.section_feature #container .features .aida .features_texts h3{
+}
+.section_feature #container .features .aida .features_texts .features_paragraph{
+  width: 300px;
+}
+}
+
+@media(max-width:770px){
+.section_feature{
+}
+.section_feature #container h2{
+}
+.section_feature #container .features{
+  display: flex;
+  flex-wrap: wrap;
+}
+.section_feature #container .features .aida{
+  width: 100%;
+  padding-bottom: 40px;
+}
+.section_feature #container .features .aida .features_box{
+}
+.section_feature #container .features .aida .features_box img{
+}
+.section_feature #container .features .aida .features_texts{
+}
+.section_feature #container .features .aida .features_texts h3{
+}
+.section_feature #container .features .aida .features_texts .features_paragraph{
+  width: 350px;
+  padding-top: 20px;
+}
+}

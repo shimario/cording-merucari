@@ -1,0 +1,100 @@
+.section_download{
+  background-image: url(https://www.mercari.com/jp/assets/img/common/jp/top/download_bg_pc.jpg?77887360);
+  background-size: cover;
+  color: white;
+  display: flex;
+  height: 260px;
+}
+.section_download .download_left{
+  padding-top: 45px;
+  margin-left: 18%;
+}
+.section_download .download_left h2{
+  font-size: 24px;
+  font-weight: bold;
+}
+.section_download .download_left .now_download{
+  font-size: 34px;
+  padding-top: 20px;
+}
+.section_download .download_left .download_icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.section_download .download_left .download_icons img:first-child{
+  width: 70px;
+}
+.section_download .download_left .download_icons img:last-child{
+  margin-right: 30px;
+}
+.section_download .download_right{
+  margin-left: 30px;
+}
+.section_download .download_right img{
+  height: 260px;
+}
+.moment_download{
+  display: none;
+}
+
+@media(max-width:1070px){
+.section_download{
+}
+.section_download .download_left{
+  margin-left: 11%;
+  padding-top: 55px;
+}
+.section_download .download_left h2{
+  font-size: 17px;
+}
+.section_download .download_left .now_download{
+  font-size: 22px;
+}
+.section_download .download_left .download_icons{
+}
+.section_download .download_left .download_icons img:first-child{
+  padding-right: 20px;
+}
+.section_download .download_left .download_icons img:last-child{
+  padding-left: 20px;
+}
+.section_download .download_right{
+}
+.section_download .download_right img{
+  padding-left: 5px;
+}
+}
+
+@media(max-width:770px){
+.section_download{
+  background: white;
+}
+.section_download .download_left{
+  display: none;
+}
+.section_download .download_left h2{
+}
+.section_download .download_left .now_download{
+}
+.section_download .download_left .download_icons{
+}
+.section_download .download_left .download_icons img:first-child{
+}
+.section_download .download_left .download_icons img:last-child{
+}
+.section_download .download_right{
+  display: none;
+}
+.section_download .download_right img{
+}
+.moment_download{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.moment_download img{
+  width: 100%;
+}
+}

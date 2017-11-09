@@ -1,0 +1,80 @@
+.section_market{
+  background-image: url(https://www.mercari.com/jp/assets/img/common/jp/top/download_area_bg_pc.jpg?77887360);
+  background-size: cover;
+  padding: 75px 0;
+  color: white;
+}
+.section_market h2{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.section_market .market_text{
+  text-align: center;
+  font-size: 18px;
+  padding-top: 30px;
+  line-height: 24px;
+}
+.section_market .market_application{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.section_market .market_application img:first-child{
+  padding-right: 40px;
+}
+.moment_naw_download{
+  display: none;
+}
+
+@media(max-width:1070px){
+.section_market{
+  background-image: url(https://www.mercari.com/jp/assets/img/common/jp/top/download_area_bg_pc.jpg?77887360);
+  background-size: cover;
+  background-position: 50% 0;
+}
+.section_market h2{
+}
+.section_market .market_text{
+}
+.section_market .market_application{
+}
+.section_market .market_application img:first-child{
+  padding-right: 0;
+}
+}
+
+@media(max-width:770px){
+.section_market{
+  background: white;
+  color: black;
+  padding-top: 0;
+  padding: 0 10px 30px;
+}
+.section_market h2{
+  font-size: 23px;
+  line-height: 30px;
+}
+.section_market .market_text{
+  padding-bottom: 40px;
+  line-height: 28px;
+}
+.section_market .market_application{
+  display: none;
+}
+.section_market .market_application img:first-child{
+  padding-right: 0;
+}
+.moment_naw_download{
+  display: block;
+  background: red;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+.moment_naw_download i{
+  padding-right: 10px;
+}
+}

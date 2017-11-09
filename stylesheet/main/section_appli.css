@@ -1,0 +1,102 @@
+.section_appli{
+  background-image: url('https://www.mercari.com/jp/assets/img/common/jp/top/main_bg_pc.jpg?77887360');
+  background-size: cover;
+  height: 390px;
+  display: flex;
+  justify-content: center;
+}
+.section_appli .appli_left{
+  color: white;
+  padding-top: 50px;
+}
+.section_appli .appli_left h1{
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 70px;
+  letter-spacing: 4px;
+}
+.section_appli .appli_left p{
+  padding-top: 20px;
+  line-height: 31px;
+  letter-spacing: 2px;
+}
+.section_appli .appli_left .appli_application{
+  padding-top: 20px;
+  display: flex;
+}
+.section_appli .appli_left .appli_application img{
+  display: block;
+}
+.section_appli .appli_right{
+  width: 380px;
+}
+.section_appli .appli_right img{
+  width: 440px;
+}
+.moment_application{
+  display: none;
+}
+
+@media(max-width:1070px){
+.section_appli{
+  margin: 0 auto;
+  height: 290px;
+}
+.section_appli .appli_left{
+  padding-top: 36px;
+}
+.section_appli .appli_left h1{
+  font-size: 36px;
+  line-height: 44px;
+}
+.section_appli .appli_left p{
+  font-size: 14px;
+  line-height: 28px;
+}
+.section_appli .appli_left .appli_application{
+}
+.section_appli .appli_left .appli_application img{
+}
+.section_appli .appli_right{
+}
+.section_appli .appli_right img{
+  width: 86%;
+}
+}
+
+@media(max-width:770px){
+.section_appli{
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 500px;
+}
+.section_appli .appli_left{
+  text-align: center;
+  padding-top: 0;
+}
+.section_appli .appli_left h1{
+  padding-top: 30px;
+}
+.section_appli .appli_left p{
+  padding-top: 10px;
+}
+.section_appli .appli_left .appli_application{
+  display: none;
+}
+.section_appli .appli_left .appli_application img{
+}
+.section_appli .appli_right{
+  text-align: center;
+  padding-top: 25px;
+}
+.section_appli .appli_right img{
+}
+.moment_application{
+  display: block;
+  width: 100%;
+}
+.moment_application img{
+  width: 100%;
+}
+}

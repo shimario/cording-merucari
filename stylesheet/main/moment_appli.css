@@ -1,0 +1,15 @@
+.moment_appli{
+  display: none;
+}
+
+@media(max-width:1070px){
+}
+
+@media(max-width:770px){
+.moment_appli{
+  display: flex;
+  justify-content: center;
+  padding: 18px 0;
+}
+}
+
